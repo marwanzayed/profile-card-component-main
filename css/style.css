@@ -1,0 +1,131 @@
+body {
+  background-color: hsl(185, 75%, 39%);
+  font-family: 'Kumbh Sans', sans-serif;
+  background-attachment:scroll;
+  background-image: url(../images/bg-pattern-top.svg) , url(../images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat;
+  background-position: -374px -498px , 550px 450px;h
+  margin-top: -20px;
+}
+@media (max-width: 550px) {
+  body {
+	  background-position: -760px -550px , 110px 450px;	
+  }
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+  
+}
+a {
+  text-decoration: none;
+}
+.border {
+  border-bottom: 1px solid hsl(0, 0%, 59%);;
+}
+.images {
+  margin-right: auto;
+  margin-left: 50%;
+}
+.container .info {
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 7% ;
+  -webkit-border-radius: 7% ;
+  -moz-border-radius: 7% ;
+  -ms-border-radius: 7% ;
+  -o-border-radius: 7% ;
+  width: 350px;
+  height: 400px;
+  top: 11em;
+  z-index: 45;
+  margin-top: 180px;
+}
+
+@media (max-width: 550px) {
+	.container  {
+		margin-top: 250px; 
+	}	
+}
+
+.name {
+  text-align: center;
+  margin-top: -55px;
+  font-weight: 700;
+  display: inline-block;
+  margin-left: -171px;
+  font-size: 18px;
+}
+.age {
+  display: inline;
+  font-family: 'Kumbh Sans', sans-serif;
+  color: hsl(227, 10%, 46%);
+  font-size: 18px;
+  font-weight: 400;
+  margin-left: 10px;
+}
+
+.london {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 0px;
+  margin-bottom: 35px;
+  color: hsl(227, 10%, 46%);
+}
+.card {
+  border-radius: 7% ;
+  -webkit-border-radius: 7% ;
+  -moz-border-radius: 7% ;
+  -ms-border-radius: 7% ;
+  -o-border-radius: 7% ;
+}
+.num {
+  display: flex;
+  margin-left: 8px;
+  font-weight: 700;
+}
+.num li {
+  margin-left: 40px;
+  text-align: center;
+}
+.text {
+  display: flex;
+  margin-left: 13px;
+  font-weight: 400;
+  font-size: 13px;
+  color: hsl(227, 10%, 46%);
+}
+.text li {
+  margin-left: 25px;
+  margin-right: 5px;
+  text-align: center;
+}
+.num .margin {
+  margin-left: 26px;
+}
+.images {
+  border-radius: 50%;
+  position: relative;
+  left: -50px;
+  bottom: 65px;
+  border: 4px solid white;
+}  
+.top {
+  margin-left: 290px;
+  margin-top: -45px;
+}
+.card img {
+  border-top-left-radius: 7%;
+  border-top-right-radius: 7%;
+}
+
+
+
